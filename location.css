@@ -1,0 +1,68 @@
+body{
+    height: 100vh;
+    margin: 0px;
+
+    font-family: sans-serif;
+}
+header{
+    margin: 0px;
+    background-color: #003049;
+    width: 100%;
+    height: 17%;
+    color: white;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.location{
+    margin: 0px;
+    margin-bottom: 20px;
+}
+button{
+    height: 38px;
+    border:none;
+    color: white;
+    border-radius: 7px;
+}
+button:hover{
+    cursor: pointer;
+}
+.navigate{
+    background-color:#780000;
+    margin-right: 15px;
+}
+.pin{
+    background-color: #c1121f;
+}
+main{
+    margin: 0px;
+    height: 83%;
+    display: flex;
+}
+.info{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.address{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hours{
+    background-color:#ffe6a7 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.map{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    border: solid #ffe6a7 2px;
+}
