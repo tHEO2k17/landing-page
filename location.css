@@ -18,6 +18,8 @@ header{
     margin-bottom: 20px;
 }
 button{
+    padding-left: 10px;
+    padding-right: 10px;
     height: 38px;
     border:none;
     color: white;
@@ -27,7 +29,8 @@ button:hover{
     cursor: pointer;
 }
 .navigate{
-    background-color:#780000;
+    color: #003049;
+    background-color:#ffe6a7;
     margin-right: 15px;
 }
 .pin{
