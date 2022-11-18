@@ -48,13 +48,17 @@ main{
 }
 .address{
     background-color: white;
+    height:50% ;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-right: solid #ffe6a7 2px;
+
 }
 .hours{
     background-color:#ffe6a7 ;
+    height: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -64,5 +68,9 @@ main{
     display: flex;
     justify-content: center;
     width: 70%;
-    border: solid #ffe6a7 2px;
+}
+p{
+    margin: 0px;
+    margin-bottom: 15px;
+    font-size: 0.95rem;
 }
