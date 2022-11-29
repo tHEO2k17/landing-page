@@ -1,0 +1,40 @@
+/* body
+{
+    margin-top: 20em;
+    background-color: red;
+} */
+
+.p-descrption {
+    color: grey;
+    text-decoration: none;
+
+}
+
+ a{
+    color: grey;
+    text-decoration: none;
+}
+
+.p-descrption :hover {
+    text-decoration: underline;
+}
+
+.item {
+    color: black;
+    font-weight: bolder;
+}
+
+.inneer-blog-content {
+    margin-left: 3em;
+    margin-right: 2em;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    height: 3em;
+    background-color: orangered;
+    padding-top: 1em;
+    border-radius: 0.4em;
+    
+}
